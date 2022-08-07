@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.product-card img {
+  width: 100%;
+  height: 311px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+body {
+  background-color: #f5f6f8;
+}
+
+.bg-light {
+  background-color: #5964e0 !important;
+}
+h1 {
+  color: #fff;
+  font-size: 1.7rem;
+}
+h6 {
+  color: #d4d4d4;
+}
+.form-control {
+  font-size: 1rem;
+  padding: 8px;
+  text-transform: capitalize;
+  border-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 10%);
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #f9f9f9;
+}
+.form-control ::placeholder {
+  color: #fafafa;
+}
+.form-container {
+  position: relative;
+}
+
+.fas {
+  color: #5866e0;
+  padding: 0px 5px;
+  font-size: 2rem;
+}
+.fas:hover {
+  color: #6570e3;
+  transition: all 1s ease-in;
+}
+.fa-edit {
+  color: #46c397;
+}
+.fa-delete {
+  color: #e14f26;
+}
+.fa-plus {
+  color: #6670e3 !important;
+  border: 1px solid #fff;
+  outline: none;
+  background-color: #fff;
+  border-color: #fff;
+  height: 68%;
+  width: 50px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0px 5px 5px 0px;
+}
+.close {
+  font-size: 1.5rem;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.product-card {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 5px 35px 0 rgb(0 0 0 / 8%);
+  background-color: #ffff;
+  border-radius: 5px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: center;
+  align-content: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin: 15px auto;
+}
+
+.product-card h3 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding: 4px 0px;
+  color: #000;
+  margin: 0;
+}
+
+.product-image-caption {
+  padding: 15px;
+}
+
+@media (max-width: 596px) {
+  .w-50 {
+    width: 80% !important;
+  }
+}
