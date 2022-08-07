@@ -130,4 +130,15 @@ a:hover {
   .w-50 {
     width: 80% !important;
   }
+  .product-image-caption {
+    padding: 5px 10px;
+  }
+  .heading{
+    padding: 0px 5px;
+  }
+  .mb-flex{
+    flex-direction: column;
+    justify-content: flex-start!important;
+    align-items: flex-start!important;
+  }
 }

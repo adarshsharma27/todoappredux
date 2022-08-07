@@ -31,8 +31,8 @@ const Todo = () => {
               <div className="col-xl-6 col-md-5 col-sm-12">
                 <div className="product-card text-left">
                   <div className="product-image-caption">
-                    <div className="product-image-txt d-flex justify-content-between align-items-center">
-                      <div className="w-50">
+                    <div className="product-image-txt d-flex justify-content-between align-items-center mb-flex">
+                      <div className="heading">
                         <h3>{element}</h3>
                       </div>
                       <div className="icons">
